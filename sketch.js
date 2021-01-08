@@ -1,3 +1,4 @@
+var express = require('express');
 var socket;
 
 socket = io.connect('http://localhost:3000');
